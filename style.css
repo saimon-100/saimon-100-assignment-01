@@ -142,3 +142,17 @@ button{
     background-color:lightblue;
 
 }
+
+footer{
+
+    text-align:center;
+    padding:40px;
+
+}
+
+
+footer hr{
+
+    margin:20px 0;
+
+}
