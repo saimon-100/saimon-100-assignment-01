@@ -18,3 +18,53 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 60px;
+background-color: #ffffff;
+}
+
+.logo {
+display: flex;
+align-items: center;
+gap: 10px;
+font-weight: 800;
+font-size: 15px;
+letter-spacing: 0.5px;
+}
+
+.logo-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 34px;
+height: 34px;
+background-color: #0f172a;
+color: #ffffff;
+border-radius: 8px;
+font-size: 12px;
+font-weight: 700;
+}
+
+.logo-text {
+line-height: 1.1;
+}
+
+.logo-year {
+font-weight: 400;
+color: #64748b;
+font-size: 13px;
+}
+
+.nav-links {
+display: flex;
+gap: 36px;
+font-size: 15px;
+color: #344054;
+}
+
+.nav-links a:hover {
+color: #2952e3;
+}
